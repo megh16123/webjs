@@ -117,22 +117,22 @@ window.addEventListener('keydown',e=>{
   moveSound.play();
   switch(e.key){
       case "ArrowUp":
-             console.log("Up");
+            
              inputDir.x = 0;
              inputDir.y = -1;
              break;
       case "ArrowLeft":
-             console.log("Left");
+            
              inputDir.x = -1;
              inputDir.y = 0;
              break;
       case "ArrowDown":
-             console.log("Down");
+            
              inputDir.x = 0;
              inputDir.y = 1;
              break;
       case "ArrowRight":
-             console.log("Right");
+            
              inputDir.x = 1;
              inputDir.y = 0;
              break;
